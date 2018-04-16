@@ -56,7 +56,9 @@ end
 def runner
   welcome
   current_total = initial_round
-  hit?(current_total)
-  #prompt_user
-  #display_card_total(card_total)
+  until current_total < 21
+    hit?(current_total)
+    display_card_total(current_total)
+  end
+  end_game
 end
