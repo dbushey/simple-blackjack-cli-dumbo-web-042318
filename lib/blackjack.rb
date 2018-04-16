@@ -53,7 +53,7 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
-def runner
+def runner(current_total)
   welcome
   initial_round
   hit?(current_total)
