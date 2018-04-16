@@ -55,7 +55,7 @@ end
 
 def runner
   welcome
-  initial_round
+  current_total = initial_round
   hit?(current_total)
   #prompt_user
   #display_card_total(card_total)
