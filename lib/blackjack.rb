@@ -56,7 +56,7 @@ end
 def runner
   welcome
   initial_round
-  hit?(current_total)
+  hit?
   prompt_user
 
   display_card_total(card_total)
