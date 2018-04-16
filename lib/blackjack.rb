@@ -63,6 +63,3 @@ def runner
   end_game(current_total)
 end
 
-def end_game(card_total)
-  puts "Sorry, you hit #{card_total}. Thanks for playing!"
-end
